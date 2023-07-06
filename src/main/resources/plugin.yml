@@ -1,0 +1,4 @@
+name: CratesPlugin
+version: '${version}'
+main: dev.imlukas.cratesplugin.CratesPlugin
+api-version: '1.20'

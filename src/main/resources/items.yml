@@ -1,0 +1,16 @@
+# Items that can be unboxed and their actions.
+diamond:
+  type: DIAMOND
+  amount: 1
+  chance: 0.8
+  actions:
+    - "GIVE:diamond 1"
+    - "MESSAGE:&aYou got a diamond!"
+
+diamond_2:
+  type: DIAMOND
+  amount: 2
+  chance: 0.5
+  actions:
+    - "GIVE:diamond 2"
+    - "MESSAGE:&aYou got 2 diamonds!"

@@ -1,0 +1,10 @@
+default-crate:
+  type: physical
+  block: CHEST
+  location:
+    world: world
+    x: 0
+    y: 0
+    z: 0
+
+  items: [ diamond, diamond_2 ]
