@@ -16,7 +16,7 @@ public class GiveAction implements ItemAction {
     @Override
     public void handle(Player player) {
         String[] split = input.split(" ");
-        ItemStack item = new ItemStack(Material.valueOf(split[0]));
+        ItemStack item = new ItemStack(Material.valueOf(split[0].toUpperCase()));
 
         if (split.length == 2) {
             item.setAmount(Integer.parseInt(split[1]));

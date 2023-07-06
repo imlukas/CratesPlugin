@@ -10,6 +10,7 @@ public class EconomyAction implements ItemAction {
     public EconomyAction(String input) {
         this.input = input;
     }
+
     @Override
     public void handle(Player player) {
 

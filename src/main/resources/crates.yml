@@ -1,10 +1,11 @@
 default-crate:
-  type: physical
-  block: CHEST
+  type: physical # physical, virtual
+  block: CHEST # Any block type
+  facing: NORTH # NORTH, SOUTH, EAST, WEST | Only applies to Directional blocks
   location:
     world: world
     x: 0
     y: 0
     z: 0
 
-  items: [ diamond, diamond_2 ]
+  items: [ diamond, diamond_2 ] # List of items to be in the crate, from the items.yml file

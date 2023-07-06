@@ -5,6 +5,9 @@ diamond:
   chance: 0.8
   actions:
     - "GIVE:diamond 1"
+    - "GIVE:diamond_helmet 1"
+    - "GIVE:diamond_chestplate 1"
+    - "GIVE:diamond_boots 1"
     - "MESSAGE:&aYou got a diamond!"
 
 diamond_2:
